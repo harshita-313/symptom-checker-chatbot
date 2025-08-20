@@ -1,0 +1,124 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.chat-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.user-msg {
+  background: #daf8e3;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+  align-self: flex-end;
+}
+
+.bot-msg {
+  background: #f1f0f0;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+  align-self: flex-start;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: green !important;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.symptom-checker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers children horizontally */
+  justify-content: flex-start;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.checker-box {
+  border: 1px solid none;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;   /* limits width */
+  width: 100%;        /* responsive */
+  background: #daf8e359;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.checker-box h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+span.check {
+    color: green;
+}
+
+.checker-box input,
+.checker-box select,
+.checker-box textarea {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 5px; 
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+p {
+    color: grey;
+    text-align: center;
+}
+
+.symptom-textarea {
+  min-height: 120px;
+}
+
+.checker-box button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.final-answer {
+  padding: 15px;
+  line-height: 1.5em;
+  white-space: pre-line; /* preserves line breaks in the answer */
+}
+
+li {
+  line-height: 1.5em;
+}
