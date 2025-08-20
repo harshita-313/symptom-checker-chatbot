@@ -1,0 +1,26 @@
+# FastAPI backend
+fastapi==0.101.0
+uvicorn==0.23.2
+pydantic==1.10.12
+
+# CORS support
+starlette==0.27.0
+
+# LangChain and embeddings
+langchain-community==0.0.174
+sentence-transformers==2.2.2
+
+# Vector database
+chromadb==0.4.9
+
+# Transformers for summarization
+transformers==4.36.2
+torch==2.1.0
+
+# Web scraping
+beautifulsoup4==4.12.2
+lxml==4.9.3
+requests==2.32.0
+
+# Optional: Text splitting and doc utilities
+tqdm==4.66.1
